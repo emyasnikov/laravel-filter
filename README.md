@@ -1,6 +1,16 @@
 # Laravel Filter
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/intraset/laravel-filter.svg?style=flat)](https://packagist.org/packages/intraset/laravel-filter)
+[![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
+[![Total Downloads](https://img.shields.io/packagist/dt/intraset/laravel-filter.svg?style=flat)](https://packagist.org/packages/intraset/laravel-filter)
+
 Filtering Eloquent queries based on HTTP requests.
+
+## Installation
+
+```bash
+composer require intraset/laravel-filter
+```
 
 ## Usage
 
@@ -78,3 +88,8 @@ public function index(Request $request, UserFilter $filter)
 - [Evgenij Myasnikov](https://github.com/emyasnikov)
 
 I got the idea to filter HTTP requests by reading an [article](https://pineco.de/filtering-eloquent-queries-based-on-http-requests/) written by [D. Nagy Gergő](https://github.com/iamgergo) and used the code.
+
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.

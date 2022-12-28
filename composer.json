@@ -1,0 +1,30 @@
+{
+    "name": "intraset/laravel-filter",
+    "description": "Filtering Eloquent queries based on HTTP requests.",
+    "keywords": [
+        "laravel",
+        "filter",
+        "eloquent",
+        "intraset"
+    ],
+    "homepage": "https://github.com/intraset/laravel-filter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgenij Myasnikov",
+            "email": "evgenij.myasnikov@gmail.com",
+            "homepage": "https://github.com/emyasnikov"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/database": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Intraset\\LaravelFilter\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
