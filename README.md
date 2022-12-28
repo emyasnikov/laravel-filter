@@ -1,6 +1,16 @@
 # Laravel Filter
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/intraset/laravel-filter.svg?style=flat)](https://packagist.org/packages/intraset/laravel-filter)
+[![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
+[![Total Downloads](https://img.shields.io/packagist/dt/intraset/laravel-filter.svg?style=flat)](https://packagist.org/packages/intraset/laravel-filter)
+
 Filtering Eloquent queries based on HTTP requests.
+
+## Installation
+
+```bash
+composer require intraset/laravel-filter
+```
 
 ## Usage
 
