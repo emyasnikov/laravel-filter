@@ -27,8 +27,8 @@ Add filter class to your application to order users by name and filter using `?n
 
 namespace App\Http\Filters;
 
-use Intraset\LaravelFilter\Filter;
 use Illuminate\Database\Eloquent\Builder;
+use Intraset\LaravelFilter\Filter;
 
 class UserFilter extends Filter
 {
@@ -67,9 +67,14 @@ Filter class can then be used to simplify controllers index handler:
 ```php
 public function index(Request $request, UserFilter $filter)
 {
-    $users = User::filter($filter)
-        ->get();
+    $users = User::filter($filter)->get();
 
     return $users;
 }
 ```
+
+## Credits
+
+- [Evgenij Myasnikov](https://github.com/emyasnikov)
+
+I got the idea to filter HTTP requests by reading an [article](https://pineco.de/filtering-eloquent-queries-based-on-http-requests/) written by [D. Nagy Gergő](https://github.com/iamgergo) and used the code.
