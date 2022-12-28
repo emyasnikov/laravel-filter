@@ -78,3 +78,8 @@ public function index(Request $request, UserFilter $filter)
 - [Evgenij Myasnikov](https://github.com/emyasnikov)
 
 I got the idea to filter HTTP requests by reading an [article](https://pineco.de/filtering-eloquent-queries-based-on-http-requests/) written by [D. Nagy Gergő](https://github.com/iamgergo) and used the code.
+
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
