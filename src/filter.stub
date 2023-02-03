@@ -1,0 +1,24 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Database\Eloquent\Builder;
+use Intraset\LaravelFilter\Filter;
+
+class {{ class }} extends Filter
+{
+    /**
+     * Apply filters.
+     *
+     * @param  \Illuminate\Database\Eloquent\Builder  $builder
+     * @return \Illuminate\Database\Eloquent\Builder
+     */
+    public function apply(Builder $builder)
+    {
+        parent::apply($builder);
+
+        //
+
+        return $builder;
+    }
+}
