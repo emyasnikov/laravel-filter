@@ -25,6 +25,13 @@
             "Intraset\\LaravelFilter\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Intraset\\LaravelFilter\\ServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
